@@ -11,6 +11,5 @@ public class Client {
 
         Adpater1.cry();
         Adpater2.work();
-
     }
 }

@@ -7,7 +7,6 @@ public class VoltageAdapter implements Ivoltage5V{
         this.voltage220v = voltage220v;
     }
 
-
     @Override
     public int output5V(){
         int src = voltage220v.output220V();

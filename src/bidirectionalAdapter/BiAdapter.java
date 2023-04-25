@@ -15,15 +15,13 @@ public class BiAdapter implements Dog,Cat{
 
     @Override
     public void cry() {
+        System.out.print("狗");
         cat.work();
-        
     }
 
     @Override
     public void work() {
+        System.out.print("猫");
         dog.cry();
-        
     }
-    
-    
 }
